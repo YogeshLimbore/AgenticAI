@@ -9,7 +9,6 @@ Automatically finds, evaluates, and applies to jobs that match your profile — 
 
 | Feature | v1 | v2 |
 |---|---|---|
-| LLM Model | `gemini-3-flash-preview` ❌ (wrong name) | `gemini-1.5-flash` ✅ (free, 1M tokens/day) |
 | Memory storage | Flat JSON (crash risk) | SQLite (ACID-safe) |
 | LLM caching | ❌ | ✅ saves ~50% API calls |
 | Logging | `print()` everywhere | Rich console + rotating file logs |
