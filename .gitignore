@@ -11,7 +11,7 @@ logs/
 # Database / memory
 memory/
 *.db
-*.json
+memory/*.json
 
 # OS files
 .DS_Store
