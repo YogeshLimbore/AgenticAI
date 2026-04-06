@@ -1,0 +1,33 @@
+# ── Core ──────────────────────────────────────────
+selenium==4.18.1
+webdriver-manager==4.0.1
+
+# ── LLM — Gemini Free Tier ────────────────────────
+# Free: 15 requests/min, 1 million tokens/day (Gemini 1.5 Flash)
+# Get key: https://aistudio.google.com/app/apikey
+google-generativeai==0.5.4
+google-api-core>=2.15.0   # for ResourceExhausted / ServiceUnavailable in retry logic
+
+# ── Config ────────────────────────────────────────
+pydantic==2.6.4
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+
+# ── Reliability ───────────────────────────────────
+tenacity==8.2.3
+
+# ── CLI UI ────────────────────────────────────────
+rich==13.7.1
+
+# ── Scheduler ─────────────────────────────────────
+APScheduler==3.10.4
+
+# ── Notifications (Telegram uses built-in urllib — no extra lib needed) ───
+
+# ── Secure Credential Storage ─────────────────────
+keyring==25.2.1
+
+# ── Dev / Testing ─────────────────────────────────
+pytest==8.1.1
+pytest-mock==3.12.0
+coverage==7.4.4

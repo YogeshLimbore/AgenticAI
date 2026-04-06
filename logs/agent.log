@@ -1,0 +1,555 @@
+2026-04-06 16:25:06 | INFO     | naukri_agent.storage | Database ready: memory\agent.db
+2026-04-06 16:25:06 | INFO     | naukri_agent.llm | LLM provider ready: [bold]gemini-1.5-flash[/] (FREE tier — 15 req/min · 1M tokens/day)
+2026-04-06 16:25:15 | DEBUG    | naukri_agent.browser | Chrome driver created with anti-detection settings
+2026-04-06 16:25:15 | INFO     | naukri_agent.auth | Attempting session cookie login...
+2026-04-06 16:25:15 | INFO     | naukri_agent.auth | Logging in with email/password...
+2026-04-06 16:25:27 | INFO     | naukri_agent.auth | [green]Login successful![/]
+2026-04-06 16:25:27 | DEBUG    | naukri_agent.browser | Session cookies saved (17 cookies)
+2026-04-06 16:25:27 | DEBUG    | naukri_agent.storage | Not enough data for threshold optimization (need 20+ outcomes)
+2026-04-06 16:25:27 | INFO     | naukri_agent.apply | Searching: 'Data Scientist' in Pune
+2026-04-06 16:25:35 | INFO     | naukri_agent.apply | Found 38 listings for 'Data Scientist'
+2026-04-06 16:25:45 | DEBUG    | naukri_agent.llm | LLM API call #1
+2026-04-06 16:25:46 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:25:46 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:25:46 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:25:57 | DEBUG    | naukri_agent.llm | LLM API call #2
+2026-04-06 16:25:57 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:25:57 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:25:57 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:26:06 | DEBUG    | naukri_agent.llm | LLM API call #3
+2026-04-06 16:26:07 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:26:07 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:26:07 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:26:17 | DEBUG    | naukri_agent.llm | LLM API call #4
+2026-04-06 16:26:17 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:26:17 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:26:17 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:26:28 | DEBUG    | naukri_agent.llm | LLM API call #5
+2026-04-06 16:26:28 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:26:28 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:26:28 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:26:39 | DEBUG    | naukri_agent.llm | LLM API call #6
+2026-04-06 16:26:39 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:26:39 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:26:39 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:26:51 | DEBUG    | naukri_agent.llm | LLM API call #7
+2026-04-06 16:26:51 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:26:51 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:26:51 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:27:00 | DEBUG    | naukri_agent.llm | LLM API call #8
+2026-04-06 16:27:00 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:27:00 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:27:00 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:27:09 | DEBUG    | naukri_agent.llm | LLM API call #9
+2026-04-06 16:27:09 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:27:09 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:27:09 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:27:18 | DEBUG    | naukri_agent.llm | LLM API call #10
+2026-04-06 16:27:19 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:27:19 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:27:19 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:27:28 | DEBUG    | naukri_agent.llm | LLM API call #11
+2026-04-06 16:27:28 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:27:28 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:27:28 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:27:38 | DEBUG    | naukri_agent.llm | LLM API call #12
+2026-04-06 16:27:38 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:27:38 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:27:38 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:27:38 | INFO     | naukri_agent.apply | Searching: 'Machine Learning Engineer' in Pune
+2026-04-06 16:27:44 | INFO     | naukri_agent.apply | Found 30 listings for 'Machine Learning Engineer'
+2026-04-06 16:27:53 | DEBUG    | naukri_agent.llm | LLM API call #13
+2026-04-06 16:27:53 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:27:53 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:27:53 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:28:02 | DEBUG    | naukri_agent.llm | LLM API call #14
+2026-04-06 16:28:02 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:28:02 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:28:02 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:28:10 | DEBUG    | naukri_agent.llm | LLM API call #15
+2026-04-06 16:28:10 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:28:10 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:28:10 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:28:20 | DEBUG    | naukri_agent.llm | LLM API call #16
+2026-04-06 16:28:21 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:28:21 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:28:21 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:28:29 | DEBUG    | naukri_agent.llm | LLM API call #17
+2026-04-06 16:28:30 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:28:30 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:28:30 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:28:39 | DEBUG    | naukri_agent.llm | LLM API call #18
+2026-04-06 16:28:39 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:28:39 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:28:39 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:28:47 | DEBUG    | naukri_agent.llm | LLM API call #19
+2026-04-06 16:28:47 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:28:47 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:28:47 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:28:57 | DEBUG    | naukri_agent.llm | LLM API call #20
+2026-04-06 16:28:57 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:28:57 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:28:57 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:29:06 | DEBUG    | naukri_agent.llm | LLM API call #21
+2026-04-06 16:29:06 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:29:06 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:29:06 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:29:16 | DEBUG    | naukri_agent.llm | LLM API call #22
+2026-04-06 16:29:16 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:29:16 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:29:16 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:29:24 | DEBUG    | naukri_agent.llm | LLM API call #23
+2026-04-06 16:29:25 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:29:25 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:29:25 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:29:33 | DEBUG    | naukri_agent.llm | LLM API call #24
+2026-04-06 16:29:34 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:29:34 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:29:34 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:29:34 | INFO     | naukri_agent.apply | Searching: 'AI Engineer' in Pune
+2026-04-06 16:29:39 | INFO     | naukri_agent.apply | Found 39 listings for 'AI Engineer'
+2026-04-06 16:29:48 | DEBUG    | naukri_agent.llm | LLM API call #25
+2026-04-06 16:29:48 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:29:48 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:29:48 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:29:57 | DEBUG    | naukri_agent.llm | LLM API call #26
+2026-04-06 16:29:57 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:29:57 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:29:57 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:30:05 | DEBUG    | naukri_agent.llm | LLM API call #27
+2026-04-06 16:30:05 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:30:05 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:30:05 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:30:14 | DEBUG    | naukri_agent.llm | LLM API call #28
+2026-04-06 16:30:15 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:30:15 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:30:15 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:30:24 | DEBUG    | naukri_agent.llm | LLM API call #29
+2026-04-06 16:30:24 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:30:24 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:30:24 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:30:34 | DEBUG    | naukri_agent.llm | LLM API call #30
+2026-04-06 16:30:34 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:30:34 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:30:34 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:30:44 | DEBUG    | naukri_agent.llm | LLM API call #31
+2026-04-06 16:30:44 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:30:44 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:30:44 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:30:54 | DEBUG    | naukri_agent.llm | LLM API call #32
+2026-04-06 16:30:54 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:30:54 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:30:54 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:31:05 | DEBUG    | naukri_agent.llm | LLM API call #33
+2026-04-06 16:31:05 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:31:05 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:31:05 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:31:15 | DEBUG    | naukri_agent.llm | LLM API call #34
+2026-04-06 16:31:15 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:31:15 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:31:15 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:31:24 | DEBUG    | naukri_agent.llm | LLM API call #35
+2026-04-06 16:31:24 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:31:24 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:31:24 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:31:34 | DEBUG    | naukri_agent.llm | LLM API call #36
+2026-04-06 16:31:34 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:31:34 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:31:34 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:31:35 | INFO     | naukri_agent.apply | Searching: 'ML Engineer' in Pune
+2026-04-06 16:31:41 | INFO     | naukri_agent.apply | Found 39 listings for 'ML Engineer'
+2026-04-06 16:31:50 | DEBUG    | naukri_agent.llm | LLM API call #37
+2026-04-06 16:31:51 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:31:51 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:31:51 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:32:00 | DEBUG    | naukri_agent.llm | LLM API call #38
+2026-04-06 16:32:00 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:32:00 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:32:00 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:32:10 | DEBUG    | naukri_agent.llm | LLM API call #39
+2026-04-06 16:32:10 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:32:10 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:32:10 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:32:19 | DEBUG    | naukri_agent.llm | LLM API call #40
+2026-04-06 16:32:19 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:32:19 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:32:19 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:32:28 | DEBUG    | naukri_agent.llm | LLM API call #41
+2026-04-06 16:32:29 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:32:29 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:32:29 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:32:30 | DEBUG    | naukri_agent.apply | UI says already applied: ML Engineer, Applied Science @ Stimuler
+2026-04-06 16:32:40 | DEBUG    | naukri_agent.llm | LLM API call #42
+2026-04-06 16:32:40 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:32:40 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:32:40 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:32:49 | DEBUG    | naukri_agent.llm | LLM API call #43
+2026-04-06 16:32:49 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:32:49 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:32:49 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:32:58 | DEBUG    | naukri_agent.llm | LLM API call #44
+2026-04-06 16:32:58 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:32:58 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:32:58 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:33:00 | DEBUG    | naukri_agent.apply | UI says already applied: Senior ML Engineer, Applied Science @ Stimuler
+2026-04-06 16:33:09 | DEBUG    | naukri_agent.llm | LLM API call #45
+2026-04-06 16:33:09 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:33:09 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:33:09 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:33:18 | DEBUG    | naukri_agent.llm | LLM API call #46
+2026-04-06 16:33:19 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:33:19 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:33:19 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:33:19 | INFO     | naukri_agent.apply | Searching: 'Data Analyst' in Pune
+2026-04-06 16:33:25 | INFO     | naukri_agent.apply | Found 38 listings for 'Data Analyst'
+2026-04-06 16:33:35 | DEBUG    | naukri_agent.llm | LLM API call #47
+2026-04-06 16:33:35 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:33:35 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:33:35 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:33:46 | DEBUG    | naukri_agent.llm | LLM API call #48
+2026-04-06 16:33:46 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:33:46 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:33:46 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:33:55 | DEBUG    | naukri_agent.llm | LLM API call #49
+2026-04-06 16:33:55 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:33:55 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:33:55 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:34:04 | DEBUG    | naukri_agent.llm | LLM API call #50
+2026-04-06 16:34:04 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:34:04 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:34:04 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:34:14 | DEBUG    | naukri_agent.llm | LLM API call #51
+2026-04-06 16:34:14 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:34:14 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:34:14 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:34:24 | DEBUG    | naukri_agent.llm | LLM API call #52
+2026-04-06 16:34:24 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:34:24 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:34:24 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:34:32 | DEBUG    | naukri_agent.llm | LLM API call #53
+2026-04-06 16:34:33 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:34:33 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:34:33 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:34:41 | DEBUG    | naukri_agent.llm | LLM API call #54
+2026-04-06 16:34:41 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:34:41 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:34:41 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:34:51 | DEBUG    | naukri_agent.llm | LLM API call #55
+2026-04-06 16:34:51 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:34:51 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:34:51 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:35:01 | DEBUG    | naukri_agent.llm | LLM API call #56
+2026-04-06 16:35:01 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:35:01 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:35:01 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:35:11 | DEBUG    | naukri_agent.llm | LLM API call #57
+2026-04-06 16:35:11 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:35:11 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:35:11 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:35:20 | DEBUG    | naukri_agent.llm | LLM API call #58
+2026-04-06 16:35:20 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:35:20 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:35:20 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:35:20 | INFO     | naukri_agent.apply | Searching: 'NLP Engineer' in Pune
+2026-04-06 16:35:26 | INFO     | naukri_agent.apply | Found 37 listings for 'NLP Engineer'
+2026-04-06 16:35:35 | DEBUG    | naukri_agent.llm | LLM API call #59
+2026-04-06 16:35:35 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:35:35 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:35:35 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:35:44 | DEBUG    | naukri_agent.llm | LLM API call #60
+2026-04-06 16:35:44 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:35:44 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:35:44 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:36:09 | DEBUG    | naukri_agent.llm | LLM API call #61
+2026-04-06 16:36:09 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:36:09 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:36:09 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:36:19 | DEBUG    | naukri_agent.llm | LLM API call #62
+2026-04-06 16:36:19 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:36:19 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:36:19 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:36:28 | DEBUG    | naukri_agent.llm | LLM API call #63
+2026-04-06 16:36:28 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:36:28 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:36:28 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:36:36 | DEBUG    | naukri_agent.llm | LLM API call #64
+2026-04-06 16:36:36 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:36:36 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:36:36 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:36:46 | DEBUG    | naukri_agent.llm | LLM API call #65
+2026-04-06 16:36:46 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:36:46 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:36:46 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:36:55 | DEBUG    | naukri_agent.llm | LLM API call #66
+2026-04-06 16:36:55 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:36:55 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:36:55 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:37:04 | DEBUG    | naukri_agent.llm | LLM API call #67
+2026-04-06 16:37:04 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:37:04 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:37:04 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:37:14 | DEBUG    | naukri_agent.llm | LLM API call #68
+2026-04-06 16:37:14 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:37:14 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:37:14 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:37:23 | DEBUG    | naukri_agent.llm | LLM API call #69
+2026-04-06 16:37:23 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:37:23 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:37:23 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:37:25 | DEBUG    | naukri_agent.apply | UI says already applied: ML Engineer, Applied Science @ Stimuler
+2026-04-06 16:37:25 | INFO     | naukri_agent.apply | Searching: 'Deep Learning Engineer' in Pune
+2026-04-06 16:37:30 | INFO     | naukri_agent.apply | Found 37 listings for 'Deep Learning Engineer'
+2026-04-06 16:37:40 | DEBUG    | naukri_agent.llm | LLM API call #70
+2026-04-06 16:37:40 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:37:40 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:37:40 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:37:48 | DEBUG    | naukri_agent.llm | LLM API call #71
+2026-04-06 16:37:49 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:37:49 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:37:49 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:37:50 | DEBUG    | naukri_agent.apply | UI says already applied: Junior Data Science Associate Consultant @ Micro1
+2026-04-06 16:38:00 | DEBUG    | naukri_agent.llm | LLM API call #72
+2026-04-06 16:38:00 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:38:00 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:38:00 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:38:10 | DEBUG    | naukri_agent.llm | LLM API call #73
+2026-04-06 16:38:10 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:38:10 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:38:10 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:38:19 | DEBUG    | naukri_agent.llm | LLM API call #74
+2026-04-06 16:38:19 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:38:19 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:38:19 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:38:28 | DEBUG    | naukri_agent.llm | LLM API call #75
+2026-04-06 16:38:28 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:38:28 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:38:28 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:38:30 | DEBUG    | naukri_agent.apply | UI says already applied: ML Engineer, Applied Science @ Stimuler
+2026-04-06 16:38:40 | DEBUG    | naukri_agent.llm | LLM API call #76
+2026-04-06 16:38:41 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:38:41 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:38:41 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:38:50 | DEBUG    | naukri_agent.llm | LLM API call #77
+2026-04-06 16:38:51 | ERROR    | naukri_agent.llm | LLM call failed after retries: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-06 16:38:51 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:38:51 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:43:25 | INFO     | naukri_agent.storage | Database ready: memory\agent.db
+2026-04-06 16:43:25 | INFO     | naukri_agent.llm | LLM provider ready: [bold]gemini-3-flash-preview[/] (FREE tier — 15 req/min · 1M tokens/day)
+2026-04-06 16:43:28 | DEBUG    | naukri_agent.browser | Chrome driver created with anti-detection settings
+2026-04-06 16:43:28 | INFO     | naukri_agent.auth | Attempting session cookie login...
+2026-04-06 16:43:36 | DEBUG    | naukri_agent.browser | Loaded 17 session cookies
+2026-04-06 16:43:39 | INFO     | naukri_agent.auth | [green]Session login successful[/] (no password used)
+2026-04-06 16:43:39 | DEBUG    | naukri_agent.storage | Not enough data for threshold optimization (need 20+ outcomes)
+2026-04-06 16:43:39 | INFO     | naukri_agent.apply | Searching: 'Data Scientist' in Pune
+2026-04-06 16:43:46 | INFO     | naukri_agent.apply | Found 38 listings for 'Data Scientist'
+2026-04-06 16:43:56 | DEBUG    | naukri_agent.llm | LLM API call #1
+2026-04-06 16:44:00 | INFO     | naukri_agent.apply | Score: 85/100 — The candidate possesses nearly all core technical requirements includi
+2026-04-06 16:44:01 | WARNING  | naukri_agent.apply | No usable apply path: AI Data Scientist @ Prgx India
+2026-04-06 16:44:11 | DEBUG    | naukri_agent.llm | LLM API call #2
+2026-04-06 16:44:16 | INFO     | naukri_agent.apply | Score: 75/100 — The candidate has a strong foundation in Python, SQL, and Machine Lear
+2026-04-06 16:44:16 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist @ MAN TRUCK BUS
+2026-04-06 16:44:26 | DEBUG    | naukri_agent.llm | LLM API call #3
+2026-04-06 16:44:30 | INFO     | naukri_agent.apply | Score: 72/100 — The candidate's profile strongly matches the core Python, ML, and NLP 
+2026-04-06 16:44:37 | DEBUG    | naukri_agent.storage | Marked applied: Data Scientist @ Solytics Partners
+2026-04-06 16:44:37 | INFO     | naukri_agent.apply | [green]Applied (1/20): Data Scientist @ Solytics Partners [score 72][/]
+2026-04-06 16:44:49 | DEBUG    | naukri_agent.llm | LLM API call #4
+2026-04-06 16:44:55 | INFO     | naukri_agent.apply | Score: 72/100 — The candidate possesses strong core machine learning and Python founda
+2026-04-06 16:44:55 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist @ LLP S3bglobal Technologies
+2026-04-06 16:45:05 | DEBUG    | naukri_agent.llm | LLM API call #5
+2026-04-06 16:45:10 | INFO     | naukri_agent.apply | Score: 85/100 — The candidate is a perfect match for the 0-2 years experience requirem
+2026-04-06 16:45:21 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist @ Maddisoft Solutions
+2026-04-06 16:45:29 | DEBUG    | naukri_agent.llm | LLM API call #6
+2026-04-06 16:45:33 | INFO     | naukri_agent.apply | Score: 85/100 — The candidate possesses all the core skills required, including Python
+2026-04-06 16:45:34 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist (Computer Vision) @ Sciffer Analytics
+2026-04-06 16:45:42 | DEBUG    | naukri_agent.llm | LLM API call #7
+2026-04-06 16:45:47 | INFO     | naukri_agent.apply | Score: 45/100 — The candidate's experience level (0-2 years) is below the required 2-4
+2026-04-06 16:45:47 | INFO     | naukri_agent.apply | Skipping: Score 45 < threshold 60.
+2026-04-06 16:45:56 | DEBUG    | naukri_agent.llm | LLM API call #8
+2026-04-06 16:46:01 | INFO     | naukri_agent.apply | Score: 55/100 — The candidate is under-experienced for the 2-4 year requirement and la
+2026-04-06 16:46:01 | INFO     | naukri_agent.apply | Skipping: Score 55 < threshold 60.
+2026-04-06 16:46:10 | DEBUG    | naukri_agent.llm | LLM API call #9
+2026-04-06 16:46:14 | INFO     | naukri_agent.apply | Score: 50/100 — The candidate falls short of the required 2-5 years of experience and 
+2026-04-06 16:46:14 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:46:24 | DEBUG    | naukri_agent.llm | LLM API call #10
+2026-04-06 16:46:28 | INFO     | naukri_agent.apply | Score: 72/100 — The candidate has a strong technical foundation in Python and ML frame
+2026-04-06 16:46:28 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist - AI/ML & Programmatic Optimization @ Iion
+2026-04-06 16:46:37 | DEBUG    | naukri_agent.llm | LLM API call #11
+2026-04-06 16:46:42 | INFO     | naukri_agent.apply | Score: 78/100 — The candidate possesses the core technical stack (Python, Scikit-learn
+2026-04-06 16:46:42 | WARNING  | naukri_agent.apply | No usable apply path: AI/ML Data Scientist/Engineer @ Corning Technologies
+2026-04-06 16:46:51 | DEBUG    | naukri_agent.llm | LLM API call #12
+2026-04-06 16:46:56 | INFO     | naukri_agent.apply | Score: 68/100 — The candidate's technical skills in Python, SQL, and Machine Learning 
+2026-04-06 16:47:03 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist, Actimize @ NiCE
+2026-04-06 16:47:03 | INFO     | naukri_agent.apply | Searching: 'Machine Learning Engineer' in Pune
+2026-04-06 16:47:09 | INFO     | naukri_agent.apply | Found 31 listings for 'Machine Learning Engineer'
+2026-04-06 16:47:17 | DEBUG    | naukri_agent.llm | LLM API call #13
+2026-04-06 16:47:23 | INFO     | naukri_agent.apply | Score: 92/100 — The candidate's skill set is a near-perfect match for the required tec
+2026-04-06 16:47:23 | WARNING  | naukri_agent.apply | No usable apply path: Machine Learning Engineer @ Mitu Research
+2026-04-06 16:47:33 | DEBUG    | naukri_agent.llm | LLM API call #14
+2026-04-06 16:47:38 | INFO     | naukri_agent.apply | Score: 55/100 — While the candidate has strong foundational deep learning and NLP skil
+2026-04-06 16:47:38 | INFO     | naukri_agent.apply | Skipping: Score 55 < threshold 60.
+2026-04-06 16:47:47 | DEBUG    | naukri_agent.llm | LLM API call #15
+2026-04-06 16:47:53 | INFO     | naukri_agent.apply | Score: 88/100 — The candidate's profile is a strong match, covering almost all core re
+2026-04-06 16:47:53 | WARNING  | naukri_agent.apply | No usable apply path: Machine Learning Engineer @ TAC Security
+2026-04-06 16:48:02 | DEBUG    | naukri_agent.llm | LLM API call #16
+2026-04-06 16:48:06 | INFO     | naukri_agent.apply | Score: 55/100 — The candidate lacks critical MLOps and big data engineering experience
+2026-04-06 16:48:06 | INFO     | naukri_agent.apply | Skipping: Score 55 < threshold 60.
+2026-04-06 16:48:15 | DEBUG    | naukri_agent.llm | LLM API call #17
+2026-04-06 16:48:19 | INFO     | naukri_agent.apply | Score: 88/100 — The candidate's technical profile perfectly aligns with the core requi
+2026-04-06 16:48:20 | WARNING  | naukri_agent.apply | No usable apply path: Machine Learning Engineer @ Aidaptive
+2026-04-06 16:48:31 | DEBUG    | naukri_agent.llm | LLM API call #18
+2026-04-06 16:48:42 | INFO     | naukri_agent.apply | Score: 75/100 — The candidate's skill set in Python, ML, and DL perfectly aligns with 
+2026-04-06 16:48:42 | WARNING  | naukri_agent.apply | No usable apply path: AI/Machine Learning Engineer @ Cks Global Ventures
+2026-04-06 16:48:52 | DEBUG    | naukri_agent.llm | LLM API call #19
+2026-04-06 16:48:57 | INFO     | naukri_agent.apply | Score: 55/100 — The candidate is at an entry-level (0-2 years) while the role is mid-l
+2026-04-06 16:48:57 | INFO     | naukri_agent.apply | Skipping: Score 55 < threshold 60.
+2026-04-06 16:49:07 | DEBUG    | naukri_agent.llm | LLM API call #20
+2026-04-06 16:49:13 | INFO     | naukri_agent.apply | Score: 72/100 — The candidate has a strong alignment with the core technical requireme
+2026-04-06 16:49:13 | WARNING  | naukri_agent.apply | No usable apply path: Machine learning and AI Engineer @ Megdap Innovation Labs
+2026-04-06 16:49:22 | DEBUG    | naukri_agent.llm | LLM API call #21
+2026-04-06 16:49:28 | INFO     | naukri_agent.apply | Score: 78/100 — The candidate has the core technical foundation in Python, ML, and Com
+2026-04-06 16:49:28 | WARNING  | naukri_agent.apply | No usable apply path: Machine Learning Engineer @ Micro1
+2026-04-06 16:49:36 | DEBUG    | naukri_agent.llm | LLM API call #22
+2026-04-06 16:49:53 | ERROR    | naukri_agent.llm | LLM call failed after retries: RetryError[<Future at 0x21407d095d0 state=finished raised ResourceExhausted>]
+2026-04-06 16:49:53 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:49:53 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:50:04 | DEBUG    | naukri_agent.llm | LLM API call #23
+2026-04-06 16:50:20 | ERROR    | naukri_agent.llm | LLM call failed after retries: RetryError[<Future at 0x21407d08ad0 state=finished raised ResourceExhausted>]
+2026-04-06 16:50:20 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:50:20 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:50:30 | DEBUG    | naukri_agent.llm | LLM API call #24
+2026-04-06 16:50:46 | ERROR    | naukri_agent.llm | LLM call failed after retries: RetryError[<Future at 0x21407d0a5d0 state=finished raised ResourceExhausted>]
+2026-04-06 16:50:46 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:50:46 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:50:46 | INFO     | naukri_agent.apply | Searching: 'AI Engineer' in Pune
+2026-04-06 16:50:53 | INFO     | naukri_agent.apply | Found 40 listings for 'AI Engineer'
+2026-04-06 16:51:02 | DEBUG    | naukri_agent.llm | LLM API call #25
+2026-04-06 16:51:19 | ERROR    | naukri_agent.llm | LLM call failed after retries: RetryError[<Future at 0x21407d2c650 state=finished raised ResourceExhausted>]
+2026-04-06 16:51:19 | INFO     | naukri_agent.apply | Score: 50/100 — Could not evaluate (parse error). Applying by default.
+2026-04-06 16:51:19 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 16:51:37 | INFO     | naukri_agent.main | Chrome driver closed cleanly
+2026-04-06 11:48:57 | INFO     | naukri_agent.storage | Database ready: memory/agent.db
+2026-04-06 11:48:57 | INFO     | naukri_agent.llm | LLM provider ready: [bold]gemini-3-flash-preview[/] (FREE tier — 15 req/min · 1M tokens/day)
+2026-04-06 11:55:21 | INFO     | naukri_agent.storage | Database ready: memory/agent.db
+2026-04-06 11:55:21 | INFO     | naukri_agent.llm | LLM provider ready: [bold]gemini-3-flash-preview[/] (FREE tier — 15 req/min · 1M tokens/day)
+2026-04-06 11:56:03 | INFO     | naukri_agent.storage | Database ready: memory/agent.db
+2026-04-06 11:56:03 | INFO     | naukri_agent.llm | LLM provider ready: [bold]gemini-3-flash-preview[/] (FREE tier — 15 req/min · 1M tokens/day)
+2026-04-06 12:05:17 | INFO     | naukri_agent.storage | Database ready: memory/agent.db
+2026-04-06 12:05:17 | INFO     | naukri_agent.llm | LLM provider ready: [bold]gemini-3-flash-preview[/] (FREE tier — 15 req/min · 1M tokens/day)
+2026-04-06 12:05:18 | DEBUG    | naukri_agent.browser | Chrome driver created with anti-detection settings
+2026-04-06 12:05:18 | INFO     | naukri_agent.auth | Attempting session cookie login...
+2026-04-06 12:05:29 | DEBUG    | naukri_agent.browser | Loaded 17 session cookies
+2026-04-06 12:05:32 | INFO     | naukri_agent.auth | [green]Session login successful[/] (no password used)
+2026-04-06 12:05:32 | DEBUG    | naukri_agent.storage | Not enough data for threshold optimization (need 20+ outcomes)
+2026-04-06 12:05:32 | INFO     | naukri_agent.apply | Searching: 'Data Scientist' in Pune
+2026-04-06 12:05:40 | INFO     | naukri_agent.apply | Found 38 listings for 'Data Scientist'
+2026-04-06 12:05:49 | DEBUG    | naukri_agent.llm | LLM cache hit (1 saved so far)
+2026-04-06 12:05:49 | INFO     | naukri_agent.apply | Score: 85/100 — The candidate possesses nearly all core technical requirements includi
+2026-04-06 12:05:50 | WARNING  | naukri_agent.apply | No usable apply path: AI Data Scientist @ Prgx India
+2026-04-06 12:05:59 | DEBUG    | naukri_agent.llm | LLM cache hit (2 saved so far)
+2026-04-06 12:05:59 | INFO     | naukri_agent.apply | Score: 75/100 — The candidate has a strong foundation in Python, SQL, and Machine Lear
+2026-04-06 12:05:59 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist @ MAN TRUCK BUS
+2026-04-06 12:06:01 | DEBUG    | naukri_agent.apply | DB: already applied to Data Scientist @ Solytics Partners
+2026-04-06 12:06:11 | DEBUG    | naukri_agent.llm | LLM cache hit (3 saved so far)
+2026-04-06 12:06:11 | INFO     | naukri_agent.apply | Score: 72/100 — The candidate possesses strong core machine learning and Python founda
+2026-04-06 12:06:11 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist @ LLP S3bglobal Technologies
+2026-04-06 12:06:20 | DEBUG    | naukri_agent.llm | LLM cache hit (4 saved so far)
+2026-04-06 12:06:20 | INFO     | naukri_agent.apply | Score: 85/100 — The candidate is a perfect match for the 0-2 years experience requirem
+2026-04-06 12:06:29 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist @ Maddisoft Solutions
+2026-04-06 12:06:38 | DEBUG    | naukri_agent.llm | LLM cache hit (5 saved so far)
+2026-04-06 12:06:38 | INFO     | naukri_agent.apply | Score: 85/100 — The candidate possesses all the core skills required, including Python
+2026-04-06 12:06:38 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist (Computer Vision) @ Sciffer Analytics
+2026-04-06 12:06:46 | DEBUG    | naukri_agent.llm | LLM cache hit (6 saved so far)
+2026-04-06 12:06:46 | INFO     | naukri_agent.apply | Score: 45/100 — The candidate's experience level (0-2 years) is below the required 2-4
+2026-04-06 12:06:47 | INFO     | naukri_agent.apply | Skipping: Score 45 < threshold 60.
+2026-04-06 12:06:55 | DEBUG    | naukri_agent.llm | LLM cache hit (7 saved so far)
+2026-04-06 12:06:55 | INFO     | naukri_agent.apply | Score: 55/100 — The candidate is under-experienced for the 2-4 year requirement and la
+2026-04-06 12:06:55 | INFO     | naukri_agent.apply | Skipping: Score 55 < threshold 60.
+2026-04-06 12:07:04 | DEBUG    | naukri_agent.llm | LLM cache hit (8 saved so far)
+2026-04-06 12:07:04 | INFO     | naukri_agent.apply | Score: 50/100 — The candidate falls short of the required 2-5 years of experience and 
+2026-04-06 12:07:04 | INFO     | naukri_agent.apply | Skipping: Score 50 < threshold 60.
+2026-04-06 12:07:11 | DEBUG    | naukri_agent.llm | LLM cache hit (9 saved so far)
+2026-04-06 12:07:11 | INFO     | naukri_agent.apply | Score: 72/100 — The candidate has a strong technical foundation in Python and ML frame
+2026-04-06 12:07:12 | WARNING  | naukri_agent.apply | No usable apply path: Data Scientist - AI/ML & Programmatic Optimization @ Iion
+2026-04-06 12:07:21 | DEBUG    | naukri_agent.llm | LLM cache hit (10 saved so far)
+2026-04-06 12:07:21 | INFO     | naukri_agent.apply | Score: 78/100 — The candidate possesses the core technical stack (Python, Scikit-learn
+2026-04-06 12:07:21 | WARNING  | naukri_agent.apply | No usable apply path: AI/ML Data Scientist/Engineer @ Corning Technologies
+2026-04-06 12:07:25 | INFO     | naukri_agent.main | Chrome driver closed cleanly
+2026-04-06 17:37:44 | INFO     | naukri_agent.storage | Database ready: memory\agent.db
+2026-04-06 17:37:44 | INFO     | naukri_agent.llm | LLM provider ready: [bold]gemini-3-flash-preview[/] (FREE tier — 15 req/min · 1M tokens/day)
+2026-04-06 17:37:57 | INFO     | naukri_agent.storage | Database ready: memory\agent.db
+2026-04-06 17:37:57 | INFO     | naukri_agent.llm | LLM provider ready: [bold]gemini-3-flash-preview[/] (FREE tier — 15 req/min · 1M tokens/day)
+2026-04-06 17:40:27 | INFO     | naukri_agent.storage | Database ready: memory\agent.db
+2026-04-06 17:40:27 | INFO     | naukri_agent.llm | LLM provider ready: [bold]gemini-3-flash-preview[/] (FREE tier — 15 req/min · 1M tokens/day)
+2026-04-06 17:40:28 | INFO     | naukri_agent.browser | Using local chromedriver: C:\Users\Yogesh\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32\chromedriver.exe
+2026-04-06 17:40:31 | DEBUG    | naukri_agent.browser | Chrome driver created with anti-detection settings
+2026-04-06 17:40:31 | INFO     | naukri_agent.auth | Attempting session cookie login...
+2026-04-06 17:40:44 | DEBUG    | naukri_agent.browser | Loaded 17 session cookies
+2026-04-06 17:40:47 | ERROR    | naukri_agent.main | Agent error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x115cdf3+10b03]
+	chromedriver!GetHandleVerifier [0x115cf24+10c34]
+	chromedriver!(No symbol) [0xf42120]
+	chromedriver!(No symbol) [0xf3108e]
+	chromedriver!(No symbol) [0xf4fbe9]
+	chromedriver!(No symbol) [0xfb450c]
+	chromedriver!(No symbol) [0xfca309]
+	chromedriver!(No symbol) [0xfad8a6]
+	chromedriver!(No symbol) [0xf80229]
+	chromedriver!(No symbol) [0xf80fe4]
+	chromedriver!GetHandleVerifier [0x13c48b9+2785c9]
+	chromedriver!GetHandleVerifier [0x13bfeb5+273bc5]
+	chromedriver!GetHandleVerifier [0x13de06b+291d7b]
+	chromedriver!GetHandleVerifier [0x1175cc8+299d8]
+	chromedriver!GetHandleVerifier [0x117d9fd+3170d]
+	chromedriver!GetHandleVerifier [0x11658c8+195d8]
+	chromedriver!GetHandleVerifier [0x1165a92+197a2]
+	chromedriver!GetHandleVerifier [0x114ee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x75d55d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76fad83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76fad7c1+231]
+Traceback (most recent call last):
+  File "d:\AI Agent 2\naukri_agent_v2_fixed\main.py", line 288, in run_agent
+    if not login(_driver, email, password, debug_dir=settings.debug_dir):
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\AI Agent 2\naukri_agent_v2_fixed\auth\login.py", line 42, in login
+    if _is_logged_in(driver):
+       ~~~~~~~~~~~~~^^^^^^^^
+  File "d:\AI Agent 2\naukri_agent_v2_fixed\auth\login.py", line 27, in _is_logged_in
+    return "login" not in driver.current_url.lower()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yogesh\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 556, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yogesh\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Yogesh\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x115cdf3+10b03]
+	chromedriver!GetHandleVerifier [0x115cf24+10c34]
+	chromedriver!(No symbol) [0xf42120]
+	chromedriver!(No symbol) [0xf3108e]
+	chromedriver!(No symbol) [0xf4fbe9]
+	chromedriver!(No symbol) [0xfb450c]
+	chromedriver!(No symbol) [0xfca309]
+	chromedriver!(No symbol) [0xfad8a6]
+	chromedriver!(No symbol) [0xf80229]
+	chromedriver!(No symbol) [0xf80fe4]
+	chromedriver!GetHandleVerifier [0x13c48b9+2785c9]
+	chromedriver!GetHandleVerifier [0x13bfeb5+273bc5]
+	chromedriver!GetHandleVerifier [0x13de06b+291d7b]
+	chromedriver!GetHandleVerifier [0x1175cc8+299d8]
+	chromedriver!GetHandleVerifier [0x117d9fd+3170d]
+	chromedriver!GetHandleVerifier [0x11658c8+195d8]
+	chromedriver!GetHandleVerifier [0x1165a92+197a2]
+	chromedriver!GetHandleVerifier [0x114ee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x75d55d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76fad83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76fad7c1+231]
+
